@@ -81,6 +81,7 @@ body{
     margin: 30px 0px;
     border-radius: 10px;
     position: relative;
+    padding: 100px 0px;
 }
 
 .banner-section img::before{
@@ -92,6 +93,8 @@ body{
 
 .banner-section .title-header{
     text-align: center;
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
 }
 .banner-section .title-header h1{
     color: #FFF;
@@ -105,5 +108,34 @@ body{
     padding: 0px 100px;
 }
 
+.input-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0px auto;
+    padding: 0px 30px;
+    border-radius: 10px;
+    gap: 10px;
+    
+
+}
+
+.input-div button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.50);
+    
+    
+}
 
 /* banner section end */

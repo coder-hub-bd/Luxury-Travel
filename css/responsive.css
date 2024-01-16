@@ -1,7 +1,25 @@
 /* mobile respondsive start */
 
 @media screen and (max-width:600px) {
-    .nav-bar{
+    .nav-bar, .input-div{
         flex-direction: column;
     }
+    .input-div{
+        width: 50%;
+        height: 70%;
+    }
+    .input-div button{
+        width: 70%;
+        
+    }
+
+
+
+
+
+
+
+
+
+
 }
