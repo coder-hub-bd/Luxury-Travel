@@ -214,13 +214,37 @@ body{
     
 }
 
-.card-main .card1{
+.card-main {
+    display: flex;
+    gap: 20px;
+    width: 490px;
+    height: 300px;
+}
+.card1{
     display: flex;
     gap: 20px;
     width: 490px;
     height: 300px;
     position: relative;
+
 }
+
+
+.Indonesia{
+    position: relative;
+}
+.Indonesia > .title-indonesia{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+
+
 
 .card-main .Maldives{
     
@@ -239,7 +263,9 @@ body{
 
 
 
-
+.img-card-2{
+    height: 286px;
+}
 
 .card2{
     display: flex;
