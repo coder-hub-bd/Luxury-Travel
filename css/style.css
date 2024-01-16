@@ -193,6 +193,7 @@ body{
 /* card section start */
 .Destination-div{
     text-align: center;
+    margin-top: 50px;
 }
 
 .card-style{
@@ -257,3 +258,26 @@ body{
 
 
 /* card section end */
+
+/* Why Choose Us section start */
+.header-font{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.header-font h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.header-font p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* Why Choose Us section end */
