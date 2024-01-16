@@ -1,0 +1,7 @@
+/* mobile respondsive start */
+
+@media screen and (max-width:600px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+}
