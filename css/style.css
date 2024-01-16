@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0xp;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.main-div{
+    width: 1200px;
+    height: auto;
+    background-color: gold;
+    margin: 0px auto;
+}
+
+.main-sub-div{
+    width: 1000Px;
+    height: auto;
+    margin: 0px auto;
+    background-color: aquamarine;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo left start */
+
+.logo-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.logo-left img{
+    width: 45px;
+    height: 45px;
+}
+
+.logo-left h2{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.logo-left h2 .speacial-word{
+    color: #FF5400;
+}
+
+/* logo left end */
+
+/* nav-title-right start */
+
+
+/* nav-title-right end */
